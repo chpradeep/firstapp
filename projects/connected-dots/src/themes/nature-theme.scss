@@ -1,0 +1,9 @@
+$iotfw-nature-primary: mat-palette($mat-brown, 700, 300, 900);
+$iotfw-nature-accent: mat-palette($mat-deep-purple, 300);
+$iotfw-nature-warn: mat-palette($mat-red, 600);
+
+$iotfw-nature-theme: mat-light-theme(
+  $iotfw-nature-primary,
+  $iotfw-nature-accent,
+  $iotfw-nature-warn
+);

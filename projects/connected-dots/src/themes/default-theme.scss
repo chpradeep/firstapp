@@ -1,0 +1,5 @@
+$iotfw-primary: mat-palette($mat-indigo, 800, 300, 900);
+$iotfw-accent: mat-palette($mat-light-blue);
+$iotfw-warn: mat-palette($mat-pink, 600);
+
+$iotfw-theme: mat-light-theme($iotfw-primary, $iotfw-accent, $iotfw-warn);
