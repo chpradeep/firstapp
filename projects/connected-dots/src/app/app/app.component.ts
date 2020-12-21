@@ -36,7 +36,8 @@ export class AppComponent implements OnInit {
   navigation = [
     { link: 'about', label: 'iotfw.menu.about' },
     { link: 'feature-list', label: 'iotfw.menu.features' },
-    { link: 'examples', label: 'iotfw.menu.examples' }
+    { link: 'examples', label: 'iotfw.menu.examples' },
+    { link: 'signup', label: 'iotfw.menu.signup' }
   ];
   navigationSideMenu = [
     ...this.navigation,
